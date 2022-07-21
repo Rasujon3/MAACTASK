@@ -1,5 +1,4 @@
 import React from "react";
-import footer from "../../assets/images/footer.png";
 import flexx from "../../assets/images/FieldX.png";
 
 const Footer = () => {
