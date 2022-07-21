@@ -9,6 +9,7 @@ import Reviews from "./Reviews";
 import Carousel from "./Carousel";
 import BusinessSummary from "./BusinessSummary";
 import BannerImage from "./BannerImage";
+import ProductsFeatures from "./ProductsFeatures";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       {/* <Carousel /> */}
       <Banner></Banner>
       <BannerImage></BannerImage>
+      <ProductsFeatures></ProductsFeatures>
       {/* <Info></Info> */}
       {/* <Services></Services> */}
       {/* <FounderInfo></FounderInfo> */}
