@@ -13,6 +13,7 @@ import ProductsFeatures from "./ProductsFeatures";
 import AboutUs from "./AboutUs";
 import Summary from "./Summary";
 import Questions from "./Questions";
+import Impact from "./Impact";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <AboutUs></AboutUs>
       <Summary></Summary>
       <Questions></Questions>
+      <Impact></Impact>
       {/* <Info></Info> */}
       {/* <Services></Services> */}
       {/* <FounderInfo></FounderInfo> */}
