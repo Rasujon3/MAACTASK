@@ -14,9 +14,9 @@ const Navbar = () => {
 
   const menuItems = (
     <>
-      <li>
+      {/* <li>
         <Link to="/">Home</Link>
-      </li>
+      </li> */}
       {/* <li>
         <Link to="/appointment">Appointment</Link>
       </li> */}
@@ -29,12 +29,12 @@ const Navbar = () => {
       <li>
         <Link to="/about">About</Link>
       </li> */}
-      <li>
+      {/* <li>
         <Link to="/blogs">Blogs</Link>
       </li>
       <li>
         <Link to="/portfolio">My Portfolio</Link>
-      </li>
+      </li> */}
       {user && (
         <li>
           <Link to="/dashboard">Dashboard</Link>
@@ -48,6 +48,9 @@ const Navbar = () => {
         ) : (
           <Link to="/login">Login</Link>
         )}
+      </li>
+      <li>
+        <Link to="/signup">Register</Link>
       </li>
     </>
   );
@@ -79,7 +82,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" className="btn btn-ghost normal-case text-xl">
-          Parts Bazar
+          FieldX
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

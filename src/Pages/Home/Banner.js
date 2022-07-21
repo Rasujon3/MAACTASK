@@ -1,23 +1,18 @@
 import React from "react";
-import PrimaryButton from "../Shared/PrimaryButton";
-import banner from "../../assets/images/banner.png";
 
 const Banner = () => {
   return (
-    <div className="hero min-h-screen">
-      <div className="hero-content flex-col lg:flex-row-reverse">
-        <img
-          src={banner}
-          className="sm:max-w-[100%] lg:max-w-sm rounded-lg shadow-2xl sm:w-[70%]"
-          alt="chair"
-        />
-        <div>
-          <h1 className="text-2xl font-bold">
-            Keep Your Vehicle in Great Condition with Top Auto Parts
-          </h1>
-          <p className="py-6">Engineered for your best workout yet</p>
-          <PrimaryButton>Shop Now</PrimaryButton>
-        </div>
+    <div>
+      <h1 className="text-5xl font-bold text-center">
+        Analytics that transform your <br /> product inside-out
+      </h1>
+      <div className="mt-4 text-center">
+        <button className="btn bg-[#0052CC] font-semibold text-white">
+          Request for Demo
+        </button>
+        <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded ml-4 my-5">
+          Download
+        </button>
       </div>
     </div>
   );
