@@ -32,7 +32,7 @@ const Home = () => {
       {/* <BusinessSummary /> */}
       {/* <Reviews></Reviews> */}
       {/* <Contact></Contact> */}
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 };
