@@ -12,6 +12,7 @@ import BannerImage from "./BannerImage";
 import ProductsFeatures from "./ProductsFeatures";
 import AboutUs from "./AboutUs";
 import Summary from "./Summary";
+import Questions from "./Questions";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <ProductsFeatures></ProductsFeatures>
       <AboutUs></AboutUs>
       <Summary></Summary>
+      <Questions></Questions>
       {/* <Info></Info> */}
       {/* <Services></Services> */}
       {/* <FounderInfo></FounderInfo> */}
