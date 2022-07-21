@@ -10,6 +10,8 @@ import Carousel from "./Carousel";
 import BusinessSummary from "./BusinessSummary";
 import BannerImage from "./BannerImage";
 import ProductsFeatures from "./ProductsFeatures";
+import AboutUs from "./AboutUs";
+import Summary from "./Summary";
 
 const Home = () => {
   return (
@@ -18,6 +20,8 @@ const Home = () => {
       <Banner></Banner>
       <BannerImage></BannerImage>
       <ProductsFeatures></ProductsFeatures>
+      <AboutUs></AboutUs>
+      <Summary></Summary>
       {/* <Info></Info> */}
       {/* <Services></Services> */}
       {/* <FounderInfo></FounderInfo> */}
