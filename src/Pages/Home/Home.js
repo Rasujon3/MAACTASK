@@ -8,19 +8,21 @@ import Services from "./Services";
 import Reviews from "./Reviews";
 import Carousel from "./Carousel";
 import BusinessSummary from "./BusinessSummary";
+import BannerImage from "./BannerImage";
 
 const Home = () => {
   return (
     <div>
       {/* <Carousel /> */}
       <Banner></Banner>
-      <Info></Info>
-      <Services></Services>
-      <FounderInfo></FounderInfo>
-      <BusinessSummary />
-      <Reviews></Reviews>
-      <Contact></Contact>
-      <Footer></Footer>
+      <BannerImage></BannerImage>
+      {/* <Info></Info> */}
+      {/* <Services></Services> */}
+      {/* <FounderInfo></FounderInfo> */}
+      {/* <BusinessSummary /> */}
+      {/* <Reviews></Reviews> */}
+      {/* <Contact></Contact> */}
+      {/* <Footer></Footer> */}
     </div>
   );
 };
